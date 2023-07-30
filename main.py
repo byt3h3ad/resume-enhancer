@@ -5,13 +5,15 @@ import os
 from typing import List
 
 # Load your OpenAI API key
-models.OpenAI.api_key = "YOUR_API_KEY"
+# models.OpenAI.api_key = "YOUR_API_KEY"
 # or from environment variable:
-# models.OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+models.OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
 # Prompt for GPT-3.5 Turbo
-SYSTEM_PROMPT = """You are chatting with an AI. There are no specific prefixes for responses, so you can ask or talk about anything you like. The AI will respond in a natural, conversational manner. Feel free to start the conversation with any question or topic, and let's have a pleasant chat!
-"""
+# SYSTEM_PROMPT = """You are chatting with an AI. There are no specific prefixes for responses, so you can ask or talk about anything you like. The AI will respond in a natural, conversational manner. Feel free to start the conversation with any question or topic, and let's have a pleasant chat!
+# """
+
+SYSTEM_PROMPT = """For the given set of text, rewrite it in a professional way. The text will be added in the resume and on LinkedIn so rewrite accordingly. Give two different alternatives for the user to choose from, numbered 1 and 2."""
 
 
 @textbase.chatbot("talking-bot")

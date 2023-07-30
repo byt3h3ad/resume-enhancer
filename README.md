@@ -1,3 +1,9 @@
+# Resume Enhancer
+
+One click solution to improve your resume and LinkedIn by simply pasting your keywords and voila! The chatbot will give you a professional and polished version, with two laternatives so that you can choose the best one according to your choice!
+
+Video link: https://www.loom.com/share/a1153748dc0e4cb1a006cbd2f9f957ec?sid=e9ee642e-c138-4439-964d-12fa83edff4c
+
 # Textbase
 
 ✨ Textbase is a framework for building chatbots using NLP and ML. ✨
